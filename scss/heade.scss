@@ -1,0 +1,1015 @@
+.wrappe {
+    .blo_1 {
+        .blo_1_ro {
+            display: flex;
+            row-gap: 11px;
+            flex-direction: column;
+
+            @include scre_dough_2 {
+                display: flex;
+                row-gap: 11px;
+                flex-direction: column;
+            }
+
+            @include scre_dough_3 {
+                display: flex;
+                row-gap: 11px;
+                flex-direction: column;
+            }
+
+            @include scre_dough_4 {
+                display: flex;
+                row-gap: 11px;
+                flex-direction: column;
+            }
+            .blo_1_ro_tx1 {
+                font-style: normal;
+                font-size: 19px;
+                color: black;
+                font-family: "Source Serif Pro", sans-serif;
+
+                @include scre_dough_2 {
+                    font-style: normal;
+                    font-size: 19px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                @include scre_dough_3 {
+                    font-style: normal;
+                    font-size: 19px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                @include scre_dough_4 {
+                    font-style: normal;
+                    font-size: 19px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+            }
+
+            .blo_1_ro_tx2 {
+                font-style: normal;
+                font-size: 17px;
+                font-family: "Source Sans 3", sans-serif;
+                color: black;
+
+                @include scre_dough_2 {
+                    font-style: normal;
+                    font-size: 17px;
+                    font-family: "Source Sans 3", sans-serif;
+                    color: black;
+                }
+
+                @include scre_dough_3 {
+                    font-style: normal;
+                    font-size: 17px;
+                    font-family: "Source Sans 3", sans-serif;
+                    color: black;
+                }
+
+                @include scre_dough_4 {
+                    font-style: normal;
+                    font-size: 17px;
+                    font-family: "Source Sans 3", sans-serif;
+                    color: black;
+                }
+            }
+
+            .blo_1_ro_blo2 {
+                .blo_1_ro_blo2_ro {
+                    display: flex;
+                    row-gap: 9px;
+                    flex-direction: column;
+
+                    @include scre_dough_2 { 
+                        display: flex;
+                        row-gap: 9px;
+                        flex-direction: column;
+                    }
+
+                    @include scre_dough_3 {
+                        display: flex;
+                        row-gap: 9px;
+                        flex-direction: column;
+                    }
+
+                    @include scre_dough_4 {
+                        display: flex;
+                        row-gap: 9px;
+                        flex-direction: column;
+                    }
+                    .blo_1_ro_blo2_ro_tx1 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                        .blo_1_ro_blo2_ro_tx1_decs1 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            background-color: darkgrey;
+                            font-family: "Source Serif Pro", sans-serif;
+                            &::after {
+                                content: ">";
+                            }
+
+                            &::before {
+                                content: "<";
+                            }
+
+                            @include scre_dough_2 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::after {
+                                    content: ">";
+                                }
+    
+                                &::before {
+                                    content: "<";
+                                }
+    
+                            }
+
+                            @include scre_dough_3 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::after {
+                                    content: ">";
+                                }
+    
+                                &::before {
+                                    content: "<";
+                                }
+                            }
+
+                            @include scre_dough_4 {
+                                font-style: normal;
+                                font-size: 17px;
+                                color: black;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::after {
+                                    content: ">";
+                                }
+    
+                                &::before {
+                                    content: "<";
+                                }
+                            }
+                        }
+
+                        .blo_1_ro_blo2_ro_tx1_desc2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            background-color: darkgrey;
+                            font-family: "Source Serif Pro", sans-serif;
+                            color: black;
+                            &::before {
+                                content: "<div class='";
+                            }
+
+                            &::after {
+                                content: "'</div>";
+                            }
+
+                            @include scre_dough_2 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                color: black;
+                                &::before {
+                                    content: "<div class='";
+                                }
+    
+                                &::after {
+                                    content: "'</div>";
+                                }
+                            }
+
+                            @include scre_dough_3 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                color: black;
+                                &::before {
+                                    content: "<div class='";
+                                }
+    
+                                &::after {
+                                    content: "'</div>";
+                                }
+                            }
+
+                            @include scre_dough_4 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                color: black;
+                                &::before {
+                                    content: "<div class='";
+                                }
+    
+                                &::after {
+                                    content: "'</div>";
+                                }
+                            }
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx2 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx3 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                        .blo_1_ro_blo2_ro_tx3_desc1 {
+                            font-style: normal;
+                            font-size: 17px;
+                            background-color: darkgrey;
+                            font-family: "Source Serif Pro", sans-serif;
+                            color: black;
+                            &::before {
+                                content: "<";
+                            }
+
+                            &::after {
+                                content: ">";
+                            }
+
+                            @include scre_dough_2 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                color: black;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+
+                            @include scre_dough_3 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                color: black;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+
+                            @include scre_dough_4 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                font-family: "Source Serif Pro", sans-serif;
+                                color: black;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx4 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                        .blo_1_ro_blo2_ro_tx4_desc1 {
+                            font-style: normal;
+                            font-size: 17px;
+                            background-color: darkgrey;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            &::before {
+                                content: "<";
+                            }
+
+                            &::after {
+                                content: ">";
+                            }
+
+                            @include scre_dough_2 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+
+                            @include scre_dough_3 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+
+                            @include scre_dough_4 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx5 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                        .blo_1_ro_blo2_ro_tx5_desc1 {
+                            font-style: normal;
+                            font-size: 17px;
+                            background-color: darkgrey;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            &::after {
+                                content: ":hover";
+                            }
+
+                            @include scre_dough_2 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::after {
+                                    content: ":hover";
+                                }
+                            }
+
+                            @include scre_dough_3 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::after {
+                                    content: ":hover";
+                                }
+                            }
+
+                            @include scre_dough_4 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::after {
+                                    content: ":hover";
+                                }
+                            }
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx6 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx7 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx8 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                        .blo_1_ro_blo2_ro_tx8_desc1 {
+                            font-style: normal;
+                            font-size: 17px;
+                            background-color: darkgrey;
+                            color: black;
+                            font-family: "Source Serif Pro", sans-serif;
+                            &::before {
+                                content: "<";
+                            }
+
+                            &::after {
+                                content: ">";
+                            }
+
+                            @include scre_dough_2 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+
+                            @include scre_dough_3 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+
+                            @include scre_dough_4 {
+                                font-style: normal;
+                                font-size: 17px;
+                                background-color: darkgrey;
+                                color: black;
+                                font-family: "Source Serif Pro", sans-serif;
+                                &::before {
+                                    content: "<";
+                                }
+    
+                                &::after {
+                                    content: ">";
+                                }
+                            }
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx9 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                        
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                    }
+    
+                    .blo_1_ro_blo2_ro_tx10 {
+                        font-style: normal;
+                        font-size: 17px;
+                        color: black;
+                        font-family: "Source Sans 3", sans-serif;
+                        list-style: none;
+
+                        @include scre_dough_2 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_3 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+
+                        @include scre_dough_4 {
+                            font-style: normal;
+                            font-size: 17px;
+                            color: black;
+                            font-family: "Source Sans 3", sans-serif;
+                            list-style: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .blo_2 {
+        .blo_2_ro {
+            display: flex;
+            row-gap: 13px;
+            cursor: pointer;
+            max-width: 339px;
+            border: 3px solid darkgreen;
+            overflow: hidden;
+            background-color: transparent;
+            max-height: 37px;
+            flex-direction: column;
+            transition: 0.5s;
+            &:hover {
+                display: flex;
+                row-gap: 13px;
+                max-width: 339px;
+                overflow: hidden;
+                cursor: pointer;
+                border: 3px solid darkgreen;
+                background-color: lightblue;
+                max-height: 537px;
+                box-shadow: 1px 0px 4px 8px black;
+                flex-direction: column;
+            }
+
+            @include scre_dough_2 {
+                display: flex;
+                row-gap: 13px;
+                cursor: pointer;
+                max-width: 339px;
+                overflow: hidden;
+                background-color: transparent;
+                max-height: 37px;
+                flex-direction: column;
+                transition: 0.5s;
+                &:hover {
+                    display: flex;
+                    row-gap: 13px;
+                    max-width: 339px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    background-color: lightblue;
+                    max-height: 537px;
+                    box-shadow: 1px 0px 4px 8px black;
+                    flex-direction: column;
+                }
+            }
+
+            @include scre_dough_3 {
+                display: flex;
+                row-gap: 13px;
+                cursor: pointer;
+                max-width: 339px;
+                overflow: hidden;
+                background-color: transparent;
+                max-height: 37px;
+                flex-direction: column;
+                transition: 0.5s;
+                &:hover {
+                    display: flex;
+                    row-gap: 13px;
+                    max-width: 339px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    background-color: lightblue;
+                    max-height: 537px;
+                    box-shadow: 1px 0px 4px 8px black;
+                    flex-direction: column;
+                }
+            }
+
+            @include scre_dough_4 {
+                display: flex;
+                row-gap: 13px;
+                cursor: pointer;
+                max-width: 339px;
+                overflow: hidden;
+                background-color: transparent;
+                max-height: 37px;
+                flex-direction: column;
+                transition: 0.5s;
+                &:hover {
+                    display: flex;
+                    row-gap: 13px;
+                    max-width: 339px;
+                    overflow: hidden;
+                    cursor: pointer;
+                    background-color: lightblue;
+                    max-height: 537px;
+                    box-shadow: 1px 0px 4px 8px black;
+                    flex-direction: column;
+                }
+            }
+            .blo_2_ro_tx1 {
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Serif Pro", sans-serif;
+
+                @include scre_dough_2 {
+                    font-style: normal;
+                    font-size: 17px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                @include scre_dough_3 {
+                    font-style: normal;
+                    font-size: 17px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                @include scre_dough_4 {
+                    font-style: normal;
+                    font-size: 17px;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+            }
+
+            .blo_2_ro_tx2 {
+                font-style: normal;
+                font-size: 17px;
+                color: black;
+                font-family: "Source Sans 3", sans-serif;
+
+                @include scre_dough_2 {
+                    font-style: normal;
+                    font-size: 17px;
+                    color: black;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                @include scre_dough_3 {
+                    font-style: normal;
+                    font-size: 17px;
+                    color: black;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+
+                @include scre_dough_4 {
+                    font-style: normal;
+                    font-size: 17px;
+                    color: black;
+                    font-family: "Source Sans 3", sans-serif;
+                }
+            }
+
+            .blo_2_ro_but1 {
+                width: 67px;
+                height: 29px;
+                background-color: transparent;
+                font-style: normal;
+                font-size: 17px;
+                cursor: pointer;
+                color: black;
+                font-family: "Source Serif Pro", sans-serif;
+                transition: 0.5s;
+                &:hover {
+                    width: 67px;
+                    height: 29px;
+                    background-color: darkgreen;
+                    cursor: pointer;
+                    border: 5px solid darkgreen;
+                    font-style: normal;
+                    font-size: 17px;
+                    color: white;
+                    font-family: "Source Serif Pro", sans-serif;
+                }
+
+                @include scre_dough_2 {
+                    width: 67px;
+                    height: 29px;
+                    background-color: transparent;
+                    border: 5px solid darkgreen;
+                    font-style: normal;
+                    font-size: 17px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border: 5px solid darkgreen;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                    transition: 0.5s;
+                    &:hover {
+                        width: 67px;
+                        height: 29px;
+                        background-color: darkgreen;
+                        cursor: pointer;
+                        border: 5px solid darkgreen;
+                        font-style: normal;
+                        font-size: 17px;
+                        color: white;
+                        font-family: "Source Serif Pro", sans-serif;
+                    }
+                }
+
+                @include scre_dough_3 {
+                    width: 67px;
+                    height: 29px;
+                    background-color: transparent;
+                    border: 5px solid darkgreen;
+                    font-style: normal;
+                    font-size: 17px;
+                    cursor: pointer;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                    transition: 0.5s;
+                    &:hover {
+                        width: 67px;
+                        height: 29px;
+                        background-color: darkgreen;
+                        cursor: pointer;
+                        border: 5px solid darkgreen;
+                        font-style: normal;
+                        font-size: 17px;
+                        color: white;
+                        font-family: "Source Serif Pro", sans-serif;
+                    }
+                }
+
+                @include scre_dough_4 {
+                    width: 67px;
+                    height: 29px;
+                    background-color: transparent;
+                    border: 5px solid darkgreen;
+                    font-style: normal;
+                    font-size: 17px;
+                    cursor: pointer;
+                    color: black;
+                    font-family: "Source Serif Pro", sans-serif;
+                    transition: 0.5s;
+                    &:hover {
+                        width: 67px;
+                        height: 29px;
+                        background-color: darkgreen;
+                        cursor: pointer;
+                        border: 5px solid darkgreen;
+                        font-style: normal;
+                        font-size: 17px;
+                        color: white;
+                        font-family: "Source Serif Pro", sans-serif;
+                }                    
+            }
+        }
+    }
+    }
+}
